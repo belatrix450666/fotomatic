@@ -48,7 +48,7 @@ header {
 header .content {
   display: flex;
   align-items: center;
-  padding: 1.875rem;
+  padding: 1.85625rem 1.875rem;
 }
 
 header .logo {
@@ -92,7 +92,7 @@ header .mobile {
   }
 
   header .content {
-    padding: .5rem 0;
+    padding: .5875rem 0;
   }
 
   header .mobile ul {
@@ -110,6 +110,7 @@ header .mobile {
     padding: .1875rem .5rem;
     background-color: #9dc20b;
     line-height: 1.6;
+    border-radius: 0.25rem;
     color: white;
   }
 }
