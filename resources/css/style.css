@@ -288,7 +288,7 @@ header .mobile {
   }
 
   .feature .content {
-    padding-top: 1.25rem;
+    padding: 1.25rem 0;
   }
 }
 
@@ -327,6 +327,7 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  opacity: 100%;
 }
 
 #filters-section .content h3 {
@@ -337,6 +338,9 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0;
   max-width: 100%;
   padding: 0 1%;
 }
@@ -363,6 +367,7 @@ header .mobile {
   }
 
   #filters-section .images-container {
+    grid-template-columns: repeat(3, 1fr);
     padding: 0;
   }
 
